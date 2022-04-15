@@ -1,0 +1,13 @@
+# HTID:18536892: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:18536892:
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [NC,L]
+
+
+ErrorDocument 403 https://tkbcd.ml/error.html
+ErrorDocument 404 https://tkbcd.ml/error.html
+ErrorDocument 500 https://tkbcd.ml/error.html
