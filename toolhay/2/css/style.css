@@ -15,7 +15,8 @@ body {
 }
 
 .button1pro {
-  background-image: radial-gradient(circle, blue, crimson, indigo);
+  background-color: blue; /* Dành cho các trình duyệt không hỗ trợ gradient*/
+  background-image: linear-gradient(to bottom right, blue, white); 
   border-radius: 30%;
   color: white;
   padding: 47px 60px;
@@ -23,7 +24,7 @@ body {
   font-size: 16px;
   margin: 2%;
   margin-top: 5%;
-
+  
   cursor: pointer;
   text-align: center;
   font-weight: bold;
@@ -53,6 +54,36 @@ body {
   left: 10%;
 }
 
+#b4 {
+  top: 20%;
+  left: 10%;
+}
+
+#b5 {
+  top: 10%;
+}
+#b1 {
+  top: 20%;
+  left: 10%;
+}
+
+#b2 {
+  top: 20%;
+  left: 10%;
+}
+
+#b3 {
+  top: 20%;
+  left: 10%;
+}
+
+#b4 {
+  top: 20%;
+  left: 10%;
+}
+#b5 {
+  top: 10%;
+}
 #b4 {
   top: 20%;
   left: 10%;
@@ -171,6 +202,72 @@ body {
 
 
 
+
+
+.waviy {
+  margin-top: 3%;
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+  font-size: 45px;
+}
+.waviy span {
+  font-family: 'Alfa Slab One', cursive;
+  position: relative;
+  display: inline-block;
+  color: yellow;
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+  
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}
+
+
+
+
+
+
+
+
+
+/* Global */
+
+.line-1{
+  font-family: 'Alfa Slab One', cursive;
+    font-weight: bold;
+    color:yellow;
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 4%;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 12em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
 
 
 
