@@ -7,7 +7,7 @@ body {
 .Procongdo {
     display: flex;
     background-color: blue;
-    border: 14px solid #CCC; 
+    border: 8px solid rgb(255, 0, 0); 
     width: auto;
     height: auto;
     overflow-x: auto;
@@ -28,12 +28,56 @@ body {
 
 .Procongdo img:hover{
     -webkit-transform: scale(1.2); transform: scale(1.2); }
+ 
+
+
+    .Congdo11A5 {
+    display: flex;
+    background-color: blue;
+    border: 14px solid #CCC; 
+    width: auto;
+    height: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
+	
+}
+.Congdo11A5 > a{
+    background: url(https://live.staticflickr.com/65535/51518921282_212d0477d0_w.jpg);
+    margin: 4px;
+    padding: 1px;
+    font-size: 28px;
+    text-decoration: none;
+}
+    
+}
+.Congdo11A5 img{
+    width: 100%; /** Hình ảnh rộng 100% so với vùng chứa **/ 
+	transition: all 1s; /** Tạo độ mượt **/ } 
+
+.Congdo11A5 img:hover{
+    -webkit-transform: scale(1.); transform: scale(1.2); }
+
+.img_tkb {
+    width: 380px;
+    height: 305px;
+}
+
+
+@media only screen and (min-device-width: 412px) and (max-device-width: 499px) {
+    .font_hdsd {
+      font-size: 70%;
+
+  }
+    }
+
+
     footer{
         background-color:#ccc;
         text-align:center;
         padding:25px;
         font-size:18px;
     }
+
 footer > a{
     text-decoration: none;
 }
