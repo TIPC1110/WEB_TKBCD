@@ -67,3 +67,11 @@ h1, h4 {
 .footer_tkb {
     color: blue;
 }
+
+.tkb_chieu_sang {
+  text-align: center;
+  color: blue;
+  border: solid 3px blue;
+  padding: 3px;
+  margin: 2%;
+}
