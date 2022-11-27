@@ -2,25 +2,25 @@
   "short_name": "dtc_timetable",
   "name": "Thời khoá biểu dtc",
   "icons": [{
-          "src": "img/11/image_facebook-192x192.png",
+          "src": "img/11/app/image_facebook-192x192.png",
           "sizes": "192x192",
           "type": "image/png"
       },{
-          "src": "img/11/image_facebook-512x512.png",
+          "src": "img/11/app/image_facebook-512x512.png",
           "sizes": "512x512",
           "type": "image/png"
       },{
-          "src": "img/11/image_facebook-192x192-maskable.png",
+          "src": "img/11/app/image_facebook-192x192-maskable.png",
           "sizes": "192x192",
           "type": "image/png",
           "purpose": "maskable"
       },{
-          "src": "img/11/image_facebook-512x512-maskable.png",
+          "src": "img/11/app/image_facebook-512x512-maskable.png",
           "sizes": "512x512",
           "type": "image/png",
           "purpose": "maskable"
       },{
-          "src": "img/11/favicon-96x96.png",
+          "src": "img/11/app/favicon-96x96.png",
           "sizes": "96x96",
           "type": "image/png"
       }],
